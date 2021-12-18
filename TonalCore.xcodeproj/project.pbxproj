@@ -11,6 +11,9 @@
 		BC28CAC9276C36E900965CB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC28CAC8276C36E900965CB1 /* ContentView.swift */; };
 		BC28CACB276C36E900965CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC28CACA276C36E900965CB1 /* Assets.xcassets */; };
 		BC28CACE276C36E900965CB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC28CACD276C36E900965CB1 /* Preview Assets.xcassets */; };
+		BC28CAE9276C4B1B00965CB1 /* Helvetica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC28CAE8276C4B1B00965CB1 /* Helvetica.ttf */; };
+		BC28CAEC276C4B3300965CB1 /* LeagueGothic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC28CAEB276C4B3300965CB1 /* LeagueGothic-Regular.ttf */; };
+		BCDDDE97276C59FC00C50713 /* Helvetica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCDDDE96276C59FC00C50713 /* Helvetica-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		BC28CACA276C36E900965CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC28CACD276C36E900965CB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC28CACF276C36E900965CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC28CAE8276C4B1B00965CB1 /* Helvetica.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Helvetica.ttf; sourceTree = "<group>"; };
+		BC28CAEB276C4B3300965CB1 /* LeagueGothic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueGothic-Regular.ttf"; sourceTree = "<group>"; };
+		BCDDDE96276C59FC00C50713 /* Helvetica-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 		BC28CAC5276C36E900965CB1 /* TonalCore */ = {
 			isa = PBXGroup;
 			children = (
+				BC28CAD7276C486A00965CB1 /* Fonts */,
 				BC28CAC6276C36E900965CB1 /* TonalCoreApp.swift */,
 				BC28CAC8276C36E900965CB1 /* ContentView.swift */,
 				BC28CACA276C36E900965CB1 /* Assets.xcassets */,
@@ -67,6 +74,16 @@
 				BC28CACD276C36E900965CB1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC28CAD7276C486A00965CB1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BCDDDE96276C59FC00C50713 /* Helvetica-Bold.ttf */,
+				BC28CAEB276C4B3300965CB1 /* LeagueGothic-Regular.ttf */,
+				BC28CAE8276C4B1B00965CB1 /* Helvetica.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +143,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC28CAEC276C4B3300965CB1 /* LeagueGothic-Regular.ttf in Resources */,
+				BCDDDE97276C59FC00C50713 /* Helvetica-Bold.ttf in Resources */,
 				BC28CACE276C36E900965CB1 /* Preview Assets.xcassets in Resources */,
 				BC28CACB276C36E900965CB1 /* Assets.xcassets in Resources */,
+				BC28CAE9276C4B1B00965CB1 /* Helvetica.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
