@@ -1,6 +1,6 @@
 # Tonal UI Coding Activity
 
-This is a coding acticity given by Tonal that allows a user to input a label for strength assessment and weight in lbs!
+This is a coding activity given by Tonal that allows a user to input a label and weight in lbs for strength assessment!
 
 Time spent: **8** hours
 
