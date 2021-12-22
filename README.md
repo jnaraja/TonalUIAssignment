@@ -1,4 +1,4 @@
-# TonalUIAssignment
+# Tonal UI Coding Activity
 
 This is a coding acticity given by Tonal that allows a user to input a label for strength assessment and weight in lbs!
 
